@@ -1,0 +1,24 @@
+/* TEAM */
+
+Developer: OpenAI
+Location: San Francisco, CA, USA
+Website: https://openai.com
+
+Designer: OpenAI ChatGPT
+Location: San Francisco, CA, USA
+Website: https://chat.openai.com/
+
+/* SITE */
+
+Last update: 2023-02-12
+Standards: HTML5, CSS3, JavaScript
+API: OpenAI - ChatGPT, Inspirobot
+
+/* THANKS */
+
+OpenAI for their amazing technology, ChatGPT for being an incredible language model.
+
+/* NOTE */
+
+This website was created for educational and entertainment purposes and is not affiliated with OpenAI or ChatGPT in any way. The quotes and images generated on this site are provided by OpenAI ChatGPT and Inspirobot, respectively.
+The text and code in the files "humans.txt", "robots.txt", "index.html", "style.css" and "script.js" were all written by ChatGPT.

@@ -1,0 +1,231 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  transition: all 0.2s ease-in-out;
+}
+.logo {
+  width: 200px;
+  height: auto;
+}
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+}
+nav {
+  display: flex;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  display: block;
+  padding: 20px;
+  color: #333;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #ddd;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+#visit-message {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+#quote-box {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#image-box {
+  margin-bottom: 30px;
+}
+#image {
+  width: 100%;
+  height: auto;
+}
+#modal {
+  display: none; /* Hide the modal by default */
+  position: fixed; /* Fix the position of the modal */
+  z-index: 1; /* Show the modal on top of other elements */
+  left: 0;
+  top: 0;
+  width: 100%; /* Cover the entire screen */
+  height: 100%;
+  overflow: auto; /* Show scrollbars if the modal content is too tall */
+  background-color: rgba(0, 0, 0, 0.4); /* Make the background translucent */
+}
+
+#modal-content {
+  background-color: white;
+  margin: 15% auto; /* Center the modal vertically */
+  padding: 20px;
+  width: 80%;
+  max-width: 500px; /* Limit the width of the modal */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative; /* Make the content container position: relative */
+  }
+  
+  #close-modal {
+  color: black;
+  position: absolute; /* Make the close button position: absolute /
+  right: 10px; / Align the close button to the right /
+  top: 10px; / Align the close button to the top /
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer; / Show a hand cursor when hovering over the close button */
+  }
+  
+  #buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 100%;
+  }
+  #new-image, #tweet-image {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 40%;
+  }
+  #tweet-image {
+  background-color: lightblue;
+  width: 20%;
+  font-size: 12px;
+  }
+  #new-image:hover, #tweet-image:hover {
+  background-color: #ddd;
+  }
+  #click-tip {
+  margin-top: 30px;
+  color: #333;
+  font-size: 12px;
+  }
+  #cookie-banner {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  border-top: 1px solid #ccc;
+  }
+  #cookie-banner button {
+  font-size: 14px;
+  padding: 8px 20px;
+  background-color: #333;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  }
+  #cookie-banner button:hover {
+  background-color: #555;
+  }
+  .error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+  }
+  .error-box {
+  background-color: #fff;
+  padding: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 500px;
+  }
+  .error-box h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  color: #444;
+  }
+  .error-box p {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 40px;
+  }
+  .error-box img {
+  width: 300px;
+  display: block;
+  margin: 0auto;
+}
+footer {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50px;
+background-color: #333;
+color: #fff;
+}
+#copyright {
+margin-right: 10px;
+}
+.footer-link {
+color: rgb(255, 255, 255);
+text-decoration: underline;
+}
+@media (max-width: 768px) {
+.hamburger-menu {
+display: block;
+}
+header {
+height: 60px;
+background-color: rgba(255, 255, 255, 0.9);
+box-shadow: none;
+}
+nav {
+display: none;
+}
+}
+@media (max-height: 500px) {
+header {
+height: 40px;
+background-color: rgba(255, 255, 255, 0.7);
+}
+}
