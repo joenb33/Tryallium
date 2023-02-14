@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   background-color: #f5f5f5;
+  height: 100%;
 }
 
 header {
@@ -15,7 +16,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  height: 80px;
+  height: 10vh;
   transition: all 0.2s ease-in-out;
 }
 .logo {
@@ -59,6 +60,11 @@ main {
   background-color: #f2f2f2;
   border-radius: 5px;
   margin: 10px 0;
+  position: fixed;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
 }
 #quote-box {
   background-color: #fff;
@@ -103,12 +109,12 @@ main {
   
   #close-modal {
   color: black;
-  position: absolute; /* Make the close button position: absolute /
-  right: 10px; / Align the close button to the right /
-  top: 10px; / Align the close button to the top /
+  position: absolute; /* Make the close button position: absolute */
+  right: 10px; /* Align the close button to the right */
+  top: 10px; /* Align the close button to the top */
   font-size: 28px;
   font-weight: bold;
-  cursor: pointer; / Show a hand cursor when hovering over the close button */
+  cursor: pointer; /* Show a hand cursor when hovering over the close button */
   }
   
   #buttons {
@@ -196,36 +202,98 @@ main {
   margin: 0auto;
 }
 footer {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 50px;
-background-color: #333;
-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0 20px;
 }
+
 #copyright {
-margin-right: 10px;
+  margin: 0;
+  flex: 1;
+  text-align: center;
 }
+
 .footer-link {
-color: rgb(255, 255, 255);
-text-decoration: underline;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  text-align: center;
+  font-size: 14px;
+  padding: 0 10px;
+  position: relative; /* Add this property */
 }
+
+.footer-link::after { /* Add this code */
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px; /* Adjust this width as necessary */
+  border-bottom: 1px solid #fff;
+}
+
+.footer-link:hover {
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+
 @media (max-width: 768px) {
-.hamburger-menu {
-display: block;
+
+  header {
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: none;
+  }
+  .logo {
+    width: 100px;
+  }
+  nav {
+    display: none;
+  }
+  footer {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer-link {
+    margin-top: 10px;
+  }
+
+  #quote-box {
+    width: 80%;
+  }
+  
+  #visit-message {
+    bottom: 100px;
+  }
 }
-header {
-height: 60px;
-background-color: rgba(255, 255, 255, 0.9);
-box-shadow: none;
-}
-nav {
-display: none;
-}
-}
+
 @media (max-height: 500px) {
-header {
-height: 40px;
-background-color: rgba(255, 255, 255, 0.7);
-}
+  header {
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  .logo {
+    height: 30px;
+  }
 }
