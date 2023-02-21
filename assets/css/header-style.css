@@ -103,73 +103,73 @@ nav {
   text-decoration: none;
 }
 
-
+/* Hide the hamburger menu on larger screens */
 .hamburger {
-  display: none;
+display: none;
 }
 
 @media screen and (max-width: 768px) {
-  .nav-links {
-    display: none;
-  }
 
-  .hamburger {
-    cursor: pointer;
-    display: block;
-    position: relative;
-    z-index: 999;
-  }
+/* Display the hamburger menu on smaller screens */
+.hamburger {
+cursor: pointer;
+display: block;
+position: relative;
+z-index: 999;
+}
 
-  .line {
-    background-color: #000;
-    height: 3px;
-    margin: 5px 0;
-    width: 25px;
-    transition: transform 0.3s ease;
-  }
+.line {
+background-color: #000;
+height: 3px;
+margin: 5px 0;
+width: 25px;
+transition: transform 0.3s ease;
+}
 
-  .hamburger.is-active .line:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
-  }
+.hamburger.is-active .line:nth-child(1) {
+transform: rotate(45deg) translate(5px, 5px);
+}
 
-  .hamburger.is-active .line:nth-child(2) {
-    opacity: 0;
-  }
+.hamburger.is-active .line:nth-child(2) {
+opacity: 0;
+}
 
-  .hamburger.is-active .line:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -5px);
-  }
+.hamburger.is-active .line:nth-child(3) {
+transform: rotate(-45deg) translate(5px, -5px);
+}
 
-  .nav-links {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    padding: 1rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
+/* Hide the main navigation links by default on smaller screens */
+.nav-links {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+background-color: #fff;
+padding: 1rem;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-  .nav-links.open {
-    display: flex;
-    flex-direction: column;
-  }
+/* Show the main navigation links when the "open" class is added */
+.nav-links.open {
+display: flex;
+flex-direction: column;
+}
 
-  .nav-links li {
-    display: block;
-    margin-bottom: 1rem;
-    padding: 0;
-  }
+.nav-links li {
+display: block;
+margin-bottom: 1rem;
+padding: 0;
+}
 
-  .nav-links li:first-child {
-    margin-top: 1rem;
-  }
+.nav-links li:first-child {
+margin-top: 1rem;
+}
 
-  .nav-links a {
-    font-size: 1rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: #000;
-  }
+.nav-links a {
+font-size: 1rem;
+font-weight: bold;
+text-decoration: none;
+color: #000;
+}
 }
