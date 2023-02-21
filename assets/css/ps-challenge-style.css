@@ -1,0 +1,78 @@
+/* CSS for the Prompt Generator website */
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #generate-button {
+    display: block;
+    margin: 50px auto;
+    background-color: #0077cc;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #generate-button:hover {
+    background-color: #005299;
+  }
+  
+  #prompt-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    border: 2px solid #0077cc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation-name: pop;
+    animation-duration: 0.3s;
+  }
+  
+  #prompt-container p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0077cc;
+    text-shadow: 0px 0px 5px #fff;
+  }
+  
+  @keyframes pop {
+    from {
+      transform: scale(0.8);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #generate-button {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  
+    #prompt-container {
+      width: 90%;
+      padding: 10px;
+    }
+  
+    #prompt-container p {
+      font-size: 20px;
+    }
+  }
+  

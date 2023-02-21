@@ -1,0 +1,88 @@
+  /* Center everything in the middle of the website */
+  #quote-box {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  /* Style the image box */
+  #image-box {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the image */
+  #image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Add hover effect to the image */
+  #image:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style the buttons container */
+  #buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the new image button */
+  #new-image {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Add hover effect to the new image button */
+  #new-image:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the tweet image link */
+  #tweet-image {
+    background-color: #1da1f2;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Add hover effect to the tweet image link */
+  #tweet-image:hover {
+    background-color: #0c7db1;
+  }
+  
+  /* Style the click tip paragraph */
+  #click-tip {
+    text-align: center;
+    font-style: italic;
+    color: #999;
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 500px) {
+    #quote-box {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }

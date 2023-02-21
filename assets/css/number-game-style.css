@@ -1,0 +1,47 @@
+h1 {
+    color: #6fcf97;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  form {
+    margin: 20px 0;
+  }
+  label {
+    display: block;
+    margin: 10px 0;
+  }
+  input[type="number"] {
+    width: 80px;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #363636;
+    color: #ddd;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  button[type="submit"] {
+    background-color: #6fcf97;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  #output {
+    background-color: #2d2d2d;
+    color: #ddd;
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #6fcf97;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  #output .prompt {
+    color: #6fcf97;
+  }

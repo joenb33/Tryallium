@@ -1,5 +1,5 @@
 <?php
-  include 'dbconfig.php';
+  include '../dbconfig.php';
   
   // Connect to database
   $conn = mysqli_connect($server, $username, $password, $database);
