@@ -1,0 +1,28 @@
+.error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    }
+    .error-box {
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+    }
+    .error-box h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #444;
+    }
+    .error-box p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 40px;
+    }
+    .error-box img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+  }

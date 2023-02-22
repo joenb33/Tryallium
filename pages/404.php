@@ -14,6 +14,6 @@ include("../includes/header.php");
         <p>Try searching for it or go back to the <a href="/">home page</a>. </p>
       </div>
     </div>
-    <?php
+<?php
 include("../includes/footer.php");
 ?>
