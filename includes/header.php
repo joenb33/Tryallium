@@ -39,29 +39,24 @@
   <body>
   <header>
   <div class="logo">
-    <a href="/pages/home.php">
-      <img src="/assets/images/logo.png" alt="My Website Logo">
-    </a>
-  </div>
-  <nav>
-    <button class="hamburger" aria-label="Menu">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-    </button>
-    <ul class="nav-links">
-      <li class="dropdown">
-        <a href="#">Projects</a>
-        <ul class="dropdown-content">
-          <li><a href="/pages/quote-generation.php">Quote Generator</a></li>
-          <li><a href="/pages/ps-challenge.php">Graphic Design Assignments Generator</a></li>
-          <li><a href="/pages/random-api.php">Random API Calls</a></li>
-          <li><a href="/pages/number-game.php">Number Game</a></li>
-        </ul>
-      </li>
-      <li><a href="/pages/about.php">About</a></li>
-      <li><a href="/pages/contact.php">Contact</a></li>
-    </ul>
-  </nav>
+  <a href="/pages/home.php">
+    <img src="/assets/images/logo.png" alt="My Website Logo">
+  </a>
+</div>
+<nav>
+  <ul class="nav-links">
+    <li class="dropdown">
+      <a href="#">Projects</a>
+      <ul class="dropdown-content">
+        <li><a href="/pages/quote-generation.php">Quote Generator</a></li>
+        <li><a href="/pages/ps-challenge.php">Graphic Design Assignments Generator</a></li>
+        <li><a href="/pages/random-api.php">Random API Calls</a></li>
+        <li><a href="/pages/number-game.php">Number Game</a></li>
+      </ul>
+    </li>
+    <li><a href="/pages/about.php">About</a></li>
+    <li><a href="/pages/contact.php">Contact</a></li>
+  </ul>
+</nav>
 </header>
     <main>
