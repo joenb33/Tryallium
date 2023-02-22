@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Quote Generator | GEnerate fantastic quotes";
+$pageTitle = "Quote Generator | Generate fantastic quotes";
 $pageDescription = "Get inspired with random motivational quotes and tips for success with this AI-powered website.";
 $pageKeywords = "motivational quotes, success, AI, ChatGPT, OpenAI, inspiration, positivity, personal growth, self-improvement, life goals, personal development, self-help, achievement, mindset, determination, aspiration";
 $pageAuthor = "Joen";
