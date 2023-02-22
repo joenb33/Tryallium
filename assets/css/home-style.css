@@ -1,5 +1,5 @@
 /* Style the background image */
-.background-image {
+.background-image-section {
 	background-image: url('/assets/images/bg.jpg');
 	background-size: cover;
 	background-position: center;
@@ -12,23 +12,35 @@
 }
 
 /* Style the main content section */
-.content {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-	color: #fff;
+.main-content {
+	padding-top: 200px; /* Add some padding to separate it from the background image */
 }
 
 /* Style the "About Tryallium" section */
-#content {
-	background-color: rgb(0, 0, 0, 0,5);
+.about-content {
+	background-color: #00000010;
 	padding: 80px 0;
 }
+
 
 .container {
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 0 20px;
+}
+
+/* Make the design responsive */
+@media screen and (max-width: 768px) {
+	.main-content {
+		padding-top: 100px;
+	}
+
+	.about-content {
+		padding: 40px 0;
+	}
+  
+	.container {
+		max-width: 100%;
+		padding: 0 10px;
+	}
 }
