@@ -10,9 +10,9 @@ Website: https://chat.openai.com/
 
 /* SITE */
 
-Last update: 2023-02-12
-Standards: HTML5, CSS3, JavaScript
-API: OpenAI - ChatGPT, Inspirobot
+Last update: 2023-02-23
+Standards: HTML5, PHP, CSS3, JavaScript
+API: OpenAI - ChatGPT, Inspirobot, Kanye.rest, Dog API, YesNo API, Useless Facts API, Chuck Norris Jokes API
 
 /* THANKS */
 
@@ -20,5 +20,5 @@ OpenAI for their amazing technology, ChatGPT for being an incredible language mo
 
 /* NOTE */
 
-This website was created for educational and entertainment purposes and is not affiliated with OpenAI or ChatGPT in any way. The quotes and images generated on this site are provided by OpenAI ChatGPT and Inspirobot, respectively.
+This website was created for educational and entertainment purposes and is not affiliated with OpenAI or ChatGPT in any way.
 The text and code in the files "humans.txt", "robots.txt", "index.html", "style.css" and "script.js" were all written by ChatGPT.
