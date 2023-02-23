@@ -1,5 +1,5 @@
 # Tryallium
-A website powered by Inspirobot API and AI language model <a href="https://beta.openai.com/docs/models/gpt-3" target="_new">ChatGPT</a>. Features a veriety of projects. Built with HTML, CSS, and JavaScript for education and entertainment.
+A website powered by AI language model <a href="https://beta.openai.com/docs/models/gpt-3" target="_new">ChatGPT</a>. Features a veriety of projects. Built with HTML, CSS, and JavaScript for education and entertainment.
 
 <h2>Features</h2>
     <ul>
