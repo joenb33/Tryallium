@@ -1,7 +1,7 @@
 <?php
-$pageTitle = "Guess my age | Only imput your name and we guess your age";
-$pageDescription = "This is the description of my subpage.";
-$pageKeywords = "subpage, keywords, SEO";
+$pageTitle = "Guess my age | Get an Estimated Age for Any Name";
+$pageDescription = "Try our fun service and enter a name to get an estimated age. It's quick, easy, and completely free!";
+$pageKeywords = "guess my age, estimated age, name age calculator, fun service, free service";
 $pageAuthor = "Joen";
 $pageName = "guess-age";
 include("../includes/header.php");

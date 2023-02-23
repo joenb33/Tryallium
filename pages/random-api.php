@@ -1,7 +1,7 @@
 <?php
-$pageTitle = "Random API | Playing with some APIs";
-$pageDescription = "Get inspired with random motivational quotes and tips for success with this AI-powered website.";
-$pageKeywords = "motivational quotes, success, AI, ChatGPT, OpenAI, inspiration, positivity, personal growth, self-improvement, life goals, personal development, self-help, achievement, mindset, determination, aspiration";
+$pageTitle = "Random API | A Wacky Collection of Fun API Requests";
+$pageDescription = "Get ready for some wild and wacky API requests, loaded with jokes, fun facts, and more! Explore our website and experience the fun of our random API reques";
+$pageKeywords = "API, API requests, fun facts, jokes, dog breeds, Kanye West quotes";
 $pageAuthor = "Joen";
 $pageName = "random-api";
 include("../includes/header.php");

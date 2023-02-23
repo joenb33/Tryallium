@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "404 | Page Not Found";
-$pageDescription = "This is the description of my subpage.";
-$pageKeywords = "subpage, keywords, SEO";
+$pageDescription = "This is the custom 404 error page for our website. It means the page you were looking for is not available, but don't worry, you can try searching for it or go back to the home page.";
+$pageKeywords = "page not found, error 404, 404, custom error page, website not working";
 $pageAuthor = "Joen";
 $pageName = "404";
 include("../includes/header.php");

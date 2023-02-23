@@ -1,7 +1,7 @@
 <?php
-$pageTitle = "Prompt Generator Generate | Training Exercises and Assignments";
-$pageDescription = "This is the description of my subpage.";
-$pageKeywords = "subpage, keywords, SEO";
+$pageTitle = "About | Tryallium";
+$pageDescription = "Discover unique creative projects and exercises on our responsive website. Enhance your skills with our graphics design and quote generators.";
+$pageKeywords = "prompt generator, creative exercises, training for designers and writers, graphics design assignment generator, quote generator, ChatGPT";
 $pageAuthor = "Joen";
 $pageName = "about";
 include("../includes/header.php");

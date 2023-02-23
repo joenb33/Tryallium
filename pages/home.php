@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "Tryallium | Trying new things, one step at a time";
-$pageDescription = "This is the description of my subpage.";
-$pageKeywords = "subpage, keywords, SEO";
+$pageDescription = "Looking to learn something new or just want to try something different? Explore our website, filled with unique projects created by ChatGPT.";
+$pageKeywords = "fun projects, interesting projects, unique projects, learn something new, ChatGPT, try something different";
 $pageAuthor = "Joen";
 $pageName = "home";
 include("../includes/header.php");

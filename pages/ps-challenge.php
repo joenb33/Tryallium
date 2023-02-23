@@ -1,7 +1,7 @@
 <?php
-$pageTitle = "Prompt Generator Generate | Training Exercises and Assignments";
-$pageDescription = "This is the description of my subpage.";
-$pageKeywords = "subpage, keywords, SEO";
+$pageTitle = "Prompt Generator | Generate Creative Writing Prompts";
+$pageDescription = "Get creative writing prompts with our prompt generator. Simply click the button to generate a new prompt and get your imagination flowing.";
+$pageKeywords = "prompt generator, creative writing prompts, writing exercises, writing challenges, writing inspiration";
 $pageAuthor = "Joen";
 $pageName = "ps-challenge";
 include("../includes/header.php");
