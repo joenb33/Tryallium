@@ -63,7 +63,7 @@ A website powered by Inspirobot API and AI language model <a href="https://beta.
 <h2>Contributing</h2>
 <p>If you'd like to contribute to the project, please open an issue to discuss the changes you'd like to make. Pull requests are welcome!</p>
 <h2>Questions</h2>
-<p>If you have any questions or feedback about the project, feel free to open an issue or reach out to us at contact@tryallium.com.</p>
+<p>If you have any questions or feedback about the project, feel free to open an issue.</p>
 <h2>Future Plans</h2>
 <p>The creator of the website hopes to gain access to the New Bing AI to add more features and projects to the website. Stay tuned for updates!</p>
 <p>Thank you for visiting the TryAllium website! We hope you enjoy your time here.</p>
