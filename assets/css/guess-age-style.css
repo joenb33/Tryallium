@@ -1,0 +1,39 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+  .form-control {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #007bff;
+  }
+  
+  #result {
+    font-weight: bold;
+    font-size: 20px;
+    color: #007bff;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
