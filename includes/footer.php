@@ -20,6 +20,7 @@
         don't hesitate to contact us!
       </p>
       <button id="cookie-banner-agree">got it</button>
+      <button id="cookie-banner-opt-out">Only use vital cookies</button>
     </div>
     <footer class="site-footer">
       <p id="copyright"></p>
