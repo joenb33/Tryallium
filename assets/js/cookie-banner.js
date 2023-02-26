@@ -17,6 +17,16 @@ cookieBannerAgree.addEventListener("click", function() {
     cookieBanner.style.display = "none";
 });
 
+// Add a click event listener to the document that will dismiss the cookie banner
+document.addEventListener("click", function() {
+    // Set the "cookieBannerDismissed" item in local storage to true
+    localStorage.setItem("cookieBannerDismissed", true);
+
+    // Hide the cookie banner
+    cookieBanner.style.display = "none";
+});
+
+
 // An array of text options for the cookie banner agreement message
 const textOptions = [
     "Got it!",
@@ -55,10 +65,10 @@ const textOptions = [
   ];
   
   // Get a random index from the textOptions array
-  const randomIndex = Math.floor(Math.random() * textOptions.length);
+  const randomPrompt = Math.floor(Math.random() * textOptions.length);
   
   // Set the innerHTML of the cookie banner agreement message to the selected random text option
-  cookieBannerAgree.innerHTML = textOptions[randomIndex];
+  cookieBannerAgree.innerHTML = textOptions[randomPrompt];
   
   // Check if the user has visited the website before
   if (!localStorage.getItem("hasVisited")) {

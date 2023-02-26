@@ -1,5 +1,5 @@
   
-  const messages = [
+  const consoleMessages = [
     "You're not supposed to be here!",
     "Uh oh, wrong turn!",
     "This is a restricted area.",
@@ -70,4 +70,4 @@
     "The website console is like a secret society, and the website owner is the only one who gets to wear the cool cloak. Sorry, you'll have to find another society."
   ];
   
-  console.log('%c' + messages[Math.floor(Math.random() * messages.length)], 'font-size: 20px; color: red;');
+  console.log('%c' + consoleMessages[Math.floor(Math.random() * consoleMessages.length)], 'font-size: 20px; color: red;');
