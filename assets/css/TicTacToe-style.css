@@ -1,0 +1,38 @@
+#game-board {
+    display: inline-grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#ResetButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .gpt-4-credit {
+    font-size: 14px; /* You can adjust the font size as needed */
+    color: #3b3b3b; /* You can change the text color */
+    text-align: center; /* Centers the text horizontally */
+    margin-bottom: 10px; /* Adds some space below the text */
+}
