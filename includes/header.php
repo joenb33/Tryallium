@@ -53,7 +53,7 @@
         <li><a href="/pages/random-api">Random API Calls</a></li>
         <li><a href="/pages/number-game">Number Game</a></li>
         <li><a href="/pages/guess-age">Guess my age</a></li>
-        <li><a href="/pages/TicTacToe">Guess my age</a></li>
+        <li><a href="/pages/TicTacToe">TicTacToe</a></li>
       </ul>
     </li>
     <li><a href="/pages/about">About</a></li>
